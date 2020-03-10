@@ -9,9 +9,9 @@ while True:
         break
 
     if name in birthdays:
-        print(birthdays[name] + " is the birthday of " + name)
+        print(f"{birthdays[name]} is the birthday of {name}")
     else:
-        print("I do not have birthday information for " + name)
+        print(f"I do not have birthday information for {name}")
         print("What is their birthday? ")
         bday = input()
         birthdays[name] = bday
